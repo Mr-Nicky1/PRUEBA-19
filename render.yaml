@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: bot-zonas
+    env: python
+    buildCommand: ""
+    startCommand: "./start.sh"
